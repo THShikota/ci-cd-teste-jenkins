@@ -1,0 +1,24 @@
+{
+  "name": "ci-cd-teste-exemplo",
+  "version": "1.0.0",
+  "description": "Projeto simples para aulas de CI-CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EBAC-QE/ci-cd-teste-exemplo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EBAC-QE/ci-cd-teste-exemplo/issues"
+  },
+  "homepage": "https://github.com/EBAC-QE/ci-cd-teste-exemplo#readme",
+  "dependencies": {
+    "cypress": "^14.5.4"
+  }
+}
