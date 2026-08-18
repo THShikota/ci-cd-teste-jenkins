@@ -23,19 +23,9 @@ pipeline {
                     }
                 }
 
-                stage('Testes da suite 3') {
+                stage ('Testes da suite 3') {
                     steps {
                         bat 'npm run teste-suite-3'
-                    }
-                }
-            }
-        }
-    }
-
-    post {
-        success {
-            echo 'Build e testes concluídos com sucesso!'
-                        bat 'npx cypress run --browser electron'
                     }
                 }
             }
